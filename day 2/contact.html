@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="stylesheet" href="mystyle.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div style="max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;">
+      <a href="index.html" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;">
+        <img src="https://nestdigital.com/wp-content/uploads/2023/04/Group-82.png" alt="Nest" height="44">
+        <span style="font-weight:700">Nest</span>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" style="margin-left:12px">About</a>
+        <a href="service.html" style="margin-left:12px">Services</a>
+        <a href="cloud.html" style="margin-left:12px">Cloud</a>
+        <a href="contact.html" style="margin-left:12px">Contact</a>
+      </nav>
+    </div>
+  </header>
+   <form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltip02" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationTooltip02" value="required" required>
+    <div class="valid-tooltip">
+      Looks good!
+  </div>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltip02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationTooltip02" value="required" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+   <div class="col-md-4 position-relative">
+    <label for="validationTooltip02" class="form-label">Designation</label>
+    <input type="text" class="form-control" id="validationTooltip02" value="required" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+    </div>
+  </div>
+  <div class="col-md-6 position-relative">
+    <label for="validationTooltip03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationTooltip03" required>
+    <div class="invalid-tooltip">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3 position-relative">
+    <label for="validationTooltip04" class="form-label">State</label>
+    <select class="form-select" id="validationTooltip04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-tooltip">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3 position-relative">
+    <label for="validationTooltip05" class="form-label">Company name</label>
+    <input type="text" class="form-control" id="validationTooltip05" required>
+    <div class="invalid-tooltip">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </div>
+</form>    
+
+</body>
+</html>
